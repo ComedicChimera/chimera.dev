@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        <meta name="application-name" content="chimera.dev"/>
+        <meta name="description" content="Jordan Gaines's personal website"/>
+        <meta name="keywords" content="chimera comedicchimera comedic programming computer science cs jordan gaines dev developer software blog guide tutorial"/>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Lato:wght@300;400&family=Noto+Serif&display=swap" rel="stylesheet"> 
+
+        <!-- Common Styles -->
+        <link rel="stylesheet" type="text/css" href="/static/dist/base.bundle.css"/>
+
+        {{ template "head" . }}
+
+        <title>{{ .Title }} | chimera.dev </title>
+    </head>
+    <body>
+        <header>
+            <div class="site-title">
+                <span>chimera</span>
+                <span class="accent-primary">.dev</span>
+            </div>
+            <nav>
+                <a href="/projects">projects</a>
+                <a href="/tutorials">tutorials</a>
+                <a href="/blog">blog</a>
+                <a href="/cv">cv</a>
+            </nav>
+        </header>
+
+        <main>
+            {{ template "body" . }}
+        </main>
+
+        <footer>
+            TODO
+        </footer>
+    </body>
+</html>

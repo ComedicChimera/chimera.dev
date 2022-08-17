@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./static/dist",
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es6",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules/*",
+        "./static/dist"
+    ]
+}
